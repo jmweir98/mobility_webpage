@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+            <img src="assets/mobility1.png" alt="Logo" class="logo">
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+
+        <form id="contactForm" aria-labelledby="contactFormHeading">
+            <h2 id="contactFormHeading">Send Us a Message</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <section class="directors-section">
+            <h1>Customer Testimonials</h1>
+            <div class="directors-grid">
+                <div class="director-box">
+                    <img src="assets/customer3.png" alt="Customer 1" class="director-photo">
+                    <h3>John Farrell</h3>
+                    <p>I recently purchased a wheelchair from Mobility Matters, and I couldn't be happier with my decision. The chair is incredibly comfortable and durable, making my daily activities much easier. The customer service team was exceptional—very knowledgeable and helpful throughout the selection process. The delivery was prompt, and the setup was hassle-free. I highly recommend Mobility Matters for anyone looking for top-quality mobility aids.</p>
+                    <div class="star-rating">
+                        &#9733;&#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+                <div class="director-box">
+                    <img src="assets/customer2.jpeg" alt="Customer 2" class="director-photo">
+                    <h3>James Lavery</h3>
+                    <p>Mobility Matters has truly transformed my daily life with their outstanding power wheelchair. The advanced features and smooth ride have greatly improved my mobility. The battery life is impressive, and the controls are user-friendly. The support and training provided by the Mobility Matters team were top-notch. I feel more independent and confident now. Thank you for a fantastic product and excellent customer service!</p>
+                    <div class="star-rating">
+                        &#9733;&#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+                <div class="director-box">
+                    <img src="assets/customer1.jpg" alt="Customer 3" class="director-photo">
+                    <h3>Emily Jones</h3>
+                    <p>My new wheelchair from Mobility Matters has been a fantastic addition to my life. It's well-constructed and provides excellent maneuverability. The only issue was a slight delay in delivery, but their customer service team handled it promptly and professionally. Overall, I am very satisfied with both the product and the service. I would definitely consider Mobility Matters for future mobility needs.</p>
+                    <div class="star-rating">
+                        &#9733;&#9733;&#9733;&#9733;&#9733;
+                    </div>
+                </div>
+            </div>
+        </section>
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/jonathan-weir-cug4', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
+    </main>
+    <footer>
+
+        <div class="social-icons">
+            <a href="https://facebook.com/yourpage" target="_blank" class="social-icon">
+                <img src="assets/fb.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com/yourpage" target="_blank" class="social-icon">
+                <img src="assets/insta.png" alt="Instagram">
+            </a>
+        </div>
+        <p>&copy; 2024 Mobility Matters</p>
+        <p id="dateTime"></p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
